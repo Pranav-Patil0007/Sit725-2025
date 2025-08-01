@@ -18,7 +18,7 @@ const clickMe = () => {
 const addCards = (items) => {
     items.forEach(item => {
         let itemToAppend = '<div class="col s4 center-align">' +
-            '<div class="card medium"><div class="card-image waves-effect waves-block waves-light"><img class="activator" src="' + item.image + '">' +
+            '<div class="card hoverable"><div class="card-image waves-effect waves-block waves-light"><img class="activator" src="' + item.image + '">' +
             '</div><div class="card-content">' +
             '<span class="card-title activator grey-text text-darken-4">' + item.title + '<i class="material-icons right">more_vert</i></span><p><a href="#">' + item.link + '</a></p></div>' +
             '<div class="card-reveal">' +
@@ -35,3 +35,12 @@ $(document).ready(function () {
     })
     addCards(cardList);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });

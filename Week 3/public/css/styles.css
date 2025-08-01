@@ -1,3 +1,14 @@
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
 .navbar-size {
 width: 95%;
 margin: 0 auto;
@@ -9,7 +20,7 @@ margin: 4px 0;
 .main-body {
 background-color: #F28487;
 color: white;
-height: calc(100vh - 64px);
+height: 180vh;
 }
 .materialboxed-image {
 margin: 0 auto;
@@ -18,4 +29,37 @@ height: 400px;
 .click-me-button {
 background-color: #EE6E73;
 margin-top: 50px;
+}
+.card-image img{
+    aspect-ratio: 4 / 3;
+    width:100%;
+    object-fit: cover;
+}
+
+.carousel {
+  height: 400px;
+}
+
+.corousel .corousel-item {
+    width: 600px !important;
+}
+
+.corousel .corousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.05);      /* Zoom in */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow */
+  transition: all 0.3s ease-in-out;
+}
+
+.card {
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-copyright .container{
+    color: black;
 }
