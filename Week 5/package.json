@@ -1,0 +1,23 @@
+{
+  "name": "sit725-2025-t2-prac",
+  "version": "1.0.0",
+  "description": "sit 725 T2 week 5 prac",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranav-Patil0007/Sit725-2025.git"
+  },
+  "author": "Pranav Patil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pranav-Patil0007/Sit725-2025/issues"
+  },
+  "homepage": "https://github.com/Pranav-Patil0007/Sit725-2025#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
