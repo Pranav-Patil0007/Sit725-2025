@@ -1,0 +1,28 @@
+{
+  "name": "sit725-2025-t2-prac",
+  "version": "1.0.0",
+  "description": "sit 725 T2 week 6 prac",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranav-Patil0007/Sit725-2025.git"
+  },
+  "author": "Pranav Patil",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/Pranav-Patil0007/Sit725-2025/issues"
+  },
+  "homepage": "https://github.com/Pranav-Patil0007/Sit725-2025#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^6.0.1",
+    "chai-http": "^5.1.2",
+    "mocha": "^11.7.1",
+    "supertest": "^7.1.4"
+  }
+}
